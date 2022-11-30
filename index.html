@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alishan Khan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/alishan_logo.png" alt="">
+                </div>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web-developer</p>
+                <h1>Hi, I'm <span>Alishan Khan</span><br> From India </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ABOUT SECTION -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Untitled.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Hi, I am Alishan Khan I am an enthusiastic and diligent individual who aspires to be a Web -
+                        Developer. I enjoy being part of
+                        great teams who work collabratively to tackle problems. I am quick to graphs new idea and
+                        concepts to develop in and
+                        innovative creative solutions to problems. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br></li>
+                            <li><span>Css</span><br></li>
+                            <li><span>C#</span><br></li>
+                            <li><span>.NET</span><br></li>
+                            <li><span>SQL</span><br></li>
+                            <li><span>JAVA SCRIPT</span><br>
+                            <li><a href="https://www.credly.com/badges/c76653cc-18e6-4726-bce1-e9d2a91c5001/linked_in_profile"><span>AZURE BASICS</span><br></a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><a href="https://636bb272a454e4000898b625--adorable-malasada-e7b348.netlify.app/">Gaming world</a><br></li>
+                            <li><a href="https://exquisite-muffin-784d42.netlify.app/">Cloathing world</a><br></li>
+                            <li><a href="https://636bb3ee981f2800088a18b6--quiet-dieffenbachia-ed41e0.netlify.app/">Boogeyman</a><br></li>
+                            <li><a href="https://beautiful-crostata-def90b.netlify.app/">Car animation</a><br></li>
+                            <li><a href="https://fluffy-sawine-4ded2c.netlify.app">Hoasting world</a><br></li>
+                            <li><a href="https://tangerine-rolypoly-0e9683.netlify.app/">Wave Animation</a><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of about section -->
+
+    <!-- services section -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web-developer</h2>
+                    <p>I have a good knowledge of HTML and CSS. With that, I can make beautiful and responsive website
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Backend</h2>
+                    <p>I have basic knowledge of some backend languages like C# and SQL </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Cloud</h2>
+                    <p>I have basic knowledge of Azure as I am a certified az 900 developer and with my cloud developing
+                        skills I can help my team in deploying VM to cloud</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- portfolio -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Game Store</h3>
+                        <p>This Website let you download Games from the Web</p>
+                        <a href="https://636bb272a454e4000898b625--adorable-malasada-e7b348.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>Best place to order clothes</p>
+                        <a href="https://exquisite-muffin-784d42.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Boogeyman</h3>
+                        <p>Fan Website for Jhon Wick</p>
+                        <a href="https://636bb3ee981f2800088a18b6--quiet-dieffenbachia-ed41e0.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <!-- contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="Sub-title">Contact Me</h1>
+                    <div class="social-icons social-button">
+                        <p><a href="mailto"><i class="fas fa-paper-plane"></i>kalishan1011@outlook.com</a></p>
+                        <p><a href="Tel"><i class="fas fa-phone-square-alt"></i>9598820091</a></p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="options">
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <div class="options">
+                            <button type="submit" class="btn btn2 submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 😉 Eduline. Made by ❤️ Alishan Khan </p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
