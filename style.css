@@ -27,7 +27,7 @@ body {
 }
 
 .container img {
-    width: 32%;
+    width: 50%;
 }
 
 nav {
@@ -68,13 +68,14 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.fa-solid {
+.fa-circle-xmark {
     display: none;
 }
 
-/* .fa-cloud{
-    width: 100%;
-} */
+.fa-bars{
+    display: none;
+}
+
 .header-text {
     margin-top: 15%;
     font-size: 30px;
