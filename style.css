@@ -30,6 +30,7 @@ body {
     width: 50%;
 }
 
+
 nav {
     display: flex;
     align-items: center;
@@ -40,6 +41,7 @@ nav {
 .logo {
     width: 55%;
 }
+
 
 nav ul li {
     display: inline-block;
@@ -68,13 +70,15 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.fa-circle-xmark {
+/* .fa-circle-xmark {
     display: none;
-}
+    font-size: 25px;
+} */
 
-.fa-bars{
+/* .fa-bars{
     display: none;
-}
+    font-size: 25px;
+} */
 
 .header-text {
     margin-top: 15%;
@@ -402,9 +406,14 @@ form .btn2 {
 }
 
 /* responsive */
-nav.fas {
+.fa-bars.fa-bars {
+    display: none;
+} 
+
+.fa-xmark.fa-xmark{
     display: none;
 }
+
 
 
 @media only screen and (max-width: 900px) {
@@ -432,8 +441,15 @@ nav.fas {
     .container img {
         width: 100%;
     }
-    .fa-solid {
+
+    .fa-solid.fa-solid{
         display: block;
+        font-size: 25px;
+    }
+
+    .fa-xmark.fa-xmark{
+        display: block;
+        font-size: 25px;
     }
 
     nav.fas {
@@ -526,8 +542,18 @@ nav.fas {
         width: 100%;
     }
 
-    .fa-solid {
+    .fa-solid.fa-cloud{
+        font-size: 35px;
+    }
+
+    .fa-solid.fa-solid{
         display: block;
+        font-size: 30px;
+    }
+
+    .fa-xmark.fa-xmark{
+        display: block;
+        font-size: 20px;
     }
 
     nav.fas {
